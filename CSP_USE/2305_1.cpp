@@ -15,9 +15,10 @@ int main()
             cin >> cur;
             str += cur;
         }
-        if(records.find(str) != records.end()){
-            cout << records.find(str) -> second << endl;
+        auto findRes = records.find(str);
+        if( findRes != records.end()){
             records[str] = records.find(str) -> second + 1;
+            cout << records.find(str) -> second << endl;
         }
         else {
             cout << 1 << endl;
