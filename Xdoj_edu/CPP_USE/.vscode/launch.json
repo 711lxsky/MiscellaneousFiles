@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/lxsky711/文档/GitRepForKubuntu/KubuntuFiles/Xdoj_edu/CPP_USE",
-      "program": "/home/lxsky711/文档/GitRepForKubuntu/KubuntuFiles/Xdoj_edu/CPP_USE/build/Debug/outDebug",
+      "cwd": "/home/zyy/文档/WorkSPace/GitRepForManjaro/KubuntuFiles/Xdoj_edu/CPP_USE",
+      "program": "/home/zyy/文档/WorkSPace/GitRepForManjaro/KubuntuFiles/Xdoj_edu/CPP_USE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
