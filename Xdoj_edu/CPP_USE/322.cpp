@@ -34,12 +34,15 @@ int TopoSort(){  //改动后的拓扑排序，返回关键路径长度
     for(i = 0; i < n; i++){
         if(InDegree[i] == 0)
             q.push(i);
+            // 这里将入度为0的顶点入队
     }
     while(!q.empty()){
+        // 拿到队首结点
         int u = q.front();
         q.pop();
         for(i = 0; i < n; i++){
             if(G[u][i] != 0){
+                // 当前结点与队首节点连通
                 InDegree[i]--;
                 if(InDegree[i] == 0)
                     q.push(i);

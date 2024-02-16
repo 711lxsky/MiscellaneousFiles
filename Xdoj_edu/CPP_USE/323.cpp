@@ -52,3 +52,31 @@ void TopoSort(){
     if(node == n) printf("0");  //拓扑排序成功：无有向环
     else         printf("1");   //拓扑排序失败：存在有向环
 }
+
+int tpoSort(){
+    queue<int> myque;
+    int cnt = 0;
+    for(int i = 0; i < n; i ++){
+        if(InDegree[i] == 0){
+            myque.push(i);
+        }
+    }
+    while(! myque.empty()){
+        int cur = myque.front();
+        myque.pop();
+        for(int j = 0; j < n; j ++){
+            if(G[cur][j] != 0){
+                InDegree[j] --;
+                if(InDegree[j] == 0){
+                    myque.push(j);
+                }
+            }
+        }
+        cnt ++;
+    }
+    if(cnt == 0){
+        return 0;
+    }else {
+        return 1;
+    }
+}
