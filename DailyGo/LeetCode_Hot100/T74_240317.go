@@ -12,7 +12,6 @@ func searchMatrix(matrix [][]int, target int) bool {
 				} else if curNums[mid] > target {
 					right = mid - 1
 				} else {
-					uy7
 					left = mid + 1
 				}
 			}

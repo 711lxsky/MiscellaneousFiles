@@ -1,4 +1,4 @@
-package LeetCode_Hot100
+package LeetCode_Classic150
 
 import "sort"
 
