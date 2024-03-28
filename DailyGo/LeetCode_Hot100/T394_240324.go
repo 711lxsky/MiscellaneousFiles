@@ -1,6 +1,6 @@
 package LeetCode_Hot100
 
-func decodeString(s string) string {
+func decodeString1(s string) string {
 	var (
 		numStack []int
 		strStack []string
