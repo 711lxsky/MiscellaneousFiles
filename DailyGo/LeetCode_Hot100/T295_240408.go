@@ -13,7 +13,7 @@ type MedianFinder struct {
 	minNums, maxNums sortInts
 }
 
-func Constructor() MedianFinder {
+func Constructor295() MedianFinder {
 	return MedianFinder{}
 }
 

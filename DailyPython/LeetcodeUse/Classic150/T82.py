@@ -13,17 +13,17 @@ class Solution:
             return head
         dummy = ListNode(-1, head)
         cur = dummy
-        next = dummy.next
-        while next :
-            if next.next == None :
+        _next = dummy.next
+        while _next :
+            if _next.next == None :
                 break
-            if next.val == next.next.val:
-                while next.next and next.val == next.next.val:
-                    next = next.next
+            if _next.val == _next.next.val:
+                while _next.next and _next.val == _next.next.val:
+                    _next = _next.next
                 #  注意这个地方，因为需要把这个元素删掉的关系，还要往下走一步
-                next = next.next
-                cur.next = next
+                _next = _next.next
+                cur.next = _next
             else :
-                next = next.next
+                _next = _next.next
                 cur = cur.next
         return dummy.next
