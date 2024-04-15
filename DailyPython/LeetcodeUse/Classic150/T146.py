@@ -26,14 +26,14 @@ class LRUCache:
 
     def put(self, key: int, value: int) -> None:
         if key not in self.record:
-            newNode = DoubleLinkedListNode(key, value)
-            self.record[key] = newNode
-            self.addNodeToHead(newNode)
+            new_node = DoubleLinkedListNode(key, value)
+            self.record[key] = new_node
+            self.addNodeToHead(new_node)
             self.size += 1
             if self.size > self.capacity:
-                tailKey = self.removeTail()
+                tail_key = self.removeTail()
                 self.size -= 1
-                self.record.pop(tailKey)
+                self.record.pop(tail_key)
         else:
             node = self.record[key]
             node.value = value
