@@ -20,7 +20,7 @@ public class P12_T380_2311213 {
         }
 
         public int getRandom() {
-            return record.stream().toList().get((int) (Math.random() * record.size()));
+            return 0;
         }
     }
 }

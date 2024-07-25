@@ -7,7 +7,7 @@ public class T433_240605 {
     class Solution {
 
         // 基因种类
-        private static final char[] gene = new char[]{'A', 'C', 'G', 'T'};
+        private final char[] gene = new char[]{'A', 'C', 'G', 'T'};
 
         public int minMutation(String startGene, String endGene, String[] bank) {
             // 判断是否已经存在这个变换
