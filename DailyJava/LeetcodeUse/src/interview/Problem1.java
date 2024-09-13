@@ -1,4 +1,4 @@
-package practice;
+package interview;
 
 public class Problem1 {
 
