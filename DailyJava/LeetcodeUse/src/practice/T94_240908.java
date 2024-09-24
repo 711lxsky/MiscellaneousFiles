@@ -1,4 +1,4 @@
-package practice.SingletonTest_240908;
+package practice;
 
 import java.util.*;
 

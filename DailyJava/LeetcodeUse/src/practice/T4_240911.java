@@ -1,4 +1,4 @@
-package practice.SingletonTest_240908;
+package practice;
 
 public class T4_240911 {
 
