@@ -14,21 +14,21 @@ func minWindow(s string, t string) string {
 		record[t[i]]++
 	}
 	for right < lenS {
-		rightChar := t[right]
+		rightChar := s[right]
 		if record[rightChar] > 0 {
 			needCnt--
 		}
 		record[rightChar]--
 		if needCnt == 0 {
-			for left < right && record[t[left]] < 0 {
-				record[t[left]]++
+			for left < right && record[s[left]] < 0 {
+				record[s[left]]++
 				left++
 			}
 			if right-left+1 < minLen {
 				minLen = right - left + 1
 				ansPtr = left
 			}
-			record[t[left]]++
+			record[s[left]]++
 			left++
 			needCnt++
 		}
