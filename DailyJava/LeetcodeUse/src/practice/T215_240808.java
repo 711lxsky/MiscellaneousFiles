@@ -7,7 +7,7 @@ public class T215_240808 {
             int size = nums.length;
             buildHeap(nums, size);
             for(int i = 0; i < k - 1; i ++){
-                swap(nums, 0, size);
+                swap(nums, 0, size - 1);
                 size --;
                 heapify(nums, 0, size);
             }
@@ -21,7 +21,6 @@ public class T215_240808 {
         }
 
         public void heapify(int[] nums, int index, int heapSize){
-
             int leftSonIndex = index * 2 + 1, rightSonIndex = index * 2 + 2;
             int largestIndex = index;
             if(leftSonIndex < heapSize && nums[leftSonIndex] > nums[largestIndex]){
