@@ -7,8 +7,9 @@ func lengthOfLongestSubstring(s string) int {
 	left, right, res := 0, 0, 0
 	for right < n {
 		if curAlIndex, ok := record[s[right]]; ok {
-			left = curAlIndex
-
+			if left < curAlIndex {
+				left = curAlIndex
+			}
 		}
 		record[s[right]] = right + 1
 		right++
