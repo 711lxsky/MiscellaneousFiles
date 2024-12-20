@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d1f019-4e43-4789-9c3d-caec5d6ae9ec" name="更改" comment="" />
+    <list default="true" id="44d57cd0-727e-464e-a607-c23a0ef7bb62" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "711lxsky"
+  }
 }]]></component>
-  <component name="ProjectId" id="2ij96YV6JgFB9atIxqK5MES09Mi" />
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/711lxsky/MiscellaneousFiles.git",
+    "accountId": "b14fcc84-8be1-4461-9a35-81eb07bf25f1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jBnNTcudtgZGjf17RZCJJUvw4S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,8 +34,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Workspace",
+    "last_opened_file_path": "D:/WorkSpace/GitRep/MiscellaneousFiles/DailyJava",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -36,13 +52,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="f1d1f019-4e43-4789-9c3d-caec5d6ae9ec" name="更改" comment="" />
-      <created>1719992946679</created>
+      <changelist id="44d57cd0-727e-464e-a607-c23a0ef7bb62" name="更改" comment="" />
+      <created>1720869297841</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1719992946679</updated>
-      <workItem from="1719992949176" duration="3000" />
+      <updated>1720869297841</updated>
+      <workItem from="1720869298970" duration="19000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
