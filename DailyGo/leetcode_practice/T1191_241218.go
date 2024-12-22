@@ -2,7 +2,7 @@ package leetcode_practice
 
 func kConcatenationMaxSum(arr []int, k int) int {
 	var (
-		sum    int64 = int64(arr[0])
+		sum          = int64(arr[0])
 		maxSum int64 = 0
 		res    int64 = 0
 	)
