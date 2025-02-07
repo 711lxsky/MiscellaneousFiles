@@ -1,4 +1,4 @@
-package interview;
+package interview.year24;
 
 public class Problem1 {
 
