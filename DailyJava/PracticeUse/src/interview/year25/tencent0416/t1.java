@@ -1,9 +1,9 @@
-package interview.year25;
+package interview.year25.tencent0416;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class tencent0416 {
+public class t1 {
 
     static class TreeNode {
         int val;
